@@ -1,0 +1,71 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Scanner s = new Scanner(System.in);
+
+        int t1= -1000;
+        while (true){
+            System.out.println(t1);
+            t1++;
+            if(t1>1000){
+                break;}
+
+            }
+
+           int o, r, h;
+            while (true){
+                System.out.println("input orech rochav hekef");
+                o = s.nextByte();
+                r = s.nextInt();
+                h = s.nextInt();
+                if(h == 2*o + 2*r){
+                    System.out.println("correct");
+                    break;
+
+                }
+
+            }
+
+
+        System.out.println("input your temperature");
+            float temp;
+            while (true){
+                temp = s.nextFloat();
+                if (temp < 35 || temp > 42){
+                    System.out.println("out of range");
+                    break;}
+                if (temp> 37.5 && temp <= 42){
+                    System.out.println("sick");
+                    break;
+                }
+                if (temp > 35 && temp <= 37.5){
+                    System.out.println("healthy");
+                    break;
+                }
+            }
+
+
+
+
+
+        }
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
