@@ -1,0 +1,23 @@
+  short _1000_;
+        _1000_ = -1000;
+        do {
+            System.out.println(_1000_);
+            _1000_++;
+
+        }
+        while (_1000_<=1000);
+
+        int orech, rochav, hekef;
+
+        System.out.println("enter rohav");
+        System.out.println("enter orech");
+        System.out.println("enter hekef");
+        do {
+            System.out.println("input");
+         orech = s.nextInt();
+         rochav = s.nextInt();
+         hekef = s.nextInt();
+
+        }
+
+        while (hekef != 2*orech + 2*rochav);
